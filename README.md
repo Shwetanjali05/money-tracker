@@ -3,25 +3,27 @@
 ## Overview
 The Money Tracker App is a simple and user-friendly web application that allows users to track their expenses and incomes. Users can add new transactions, view a list of all transactions, and see the total amount. The application uses Express.js for the backend, MongoDB for the database, and a modern frontend design with HTML, CSS, and JavaScript.
 
-Features
+## Features
 Add transactions with details such as category, amount, info, and date.
 View a list of all transactions.
 Delete transactions.
-Calculate and display the total amount of transactions.
-Technologies Used
+Calculate and display the total amount of transactions. 
+
+##Technologies Used
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
-Getting Started
+
+# Getting Started
 Prerequisites
 Node.js
 MongoDB
 Installation
 Clone the repository
 
-sh
-Copy code
+```bash
 git clone https://github.com/yourusername/money-tracker-app.git
+```
 cd money-tracker-app
 Install dependencies
 
