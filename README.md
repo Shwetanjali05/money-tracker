@@ -1,5 +1,6 @@
-#Money Tracker App
-##Overview
+# Money Tracker App 
+
+## Overview
 The Money Tracker App is a simple and user-friendly web application that allows users to track their expenses and incomes. Users can add new transactions, view a list of all transactions, and see the total amount. The application uses Express.js for the backend, MongoDB for the database, and a modern frontend design with HTML, CSS, and JavaScript.
 
 Features
