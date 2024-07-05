@@ -24,42 +24,29 @@ Clone the repository
 ```bash
 git clone https://github.com/yourusername/money-tracker-app.git
 ```
+```bash
 cd money-tracker-app
-Install dependencies
+```
 
-sh
-Copy code
+##Install dependencies
+```bash
 npm install
+```
+
 Run MongoDB (Make sure MongoDB is running on your system)
 
-sh
-Copy code
-mongod
 Start the server
-
-sh
-Copy code
+```bash
 node index.js
-Open the application
+```
+
+##Open the application
 
 Navigate to http://localhost:5000 in your web browser.
-Project Structure
-plaintext
-Copy code
-money-tracker-app/
-├── public/
-│   ├── background.jpg
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── node_modules/
-├── index.js
-├── package.json
-└── README.md
-public/: Contains all the frontend files including HTML, CSS, and JavaScript.
-index.js: Main server file where the Express app is defined.
-package.json: Contains metadata about the project and its dependencies.
-README.md: The file you are reading now.
+```bash
+http://localhost:5000
+```
+
 Usage
 Adding a Transaction
 Select the category (Expense or Income).
@@ -71,11 +58,10 @@ Viewing Transactions
 The list of transactions will be displayed under the "Expenses and Incomes List" section.
 Deleting a Transaction
 Click the "Delete" button next to the transaction you wish to remove.
-Contributing
+
+## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any inquiries or feedback, please contact [your-email@example.com].
+For any inquiries or feedback, please contact [shwetanjali05@gmail.com].
